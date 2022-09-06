@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.screen {
+  grid-column: 1 / -1;
+  background: #e0e0e0;
+  padding: 0.7em 0.5rem;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.btn {
+  color: black;
+  padding: 1em 1.5em;
+  text-align: center;
+  border: 1px solid rgb(241, 237, 237);
+}
+
+.operator {
+  background: orange;
+  text-align: center;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
