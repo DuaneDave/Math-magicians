@@ -2,12 +2,19 @@
   display: grid;
   place-content: center;
   grid-template-columns: repeat(4, 1fr);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  width: 200px;
 }
 
 .screen {
   grid-column: 1 / -1;
   background: #e0e0e0;
   padding: 0.7em 0.5rem;
+  word-wrap: break-word;
+  min-height: 60px;
   text-align: right;
   font-size: 1.5rem;
 }
@@ -17,6 +24,16 @@
   padding: 1em 1.5em;
   text-align: center;
   border: 1px solid rgb(241, 237, 236);
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background: #fdf9f9;
+}
+
+.btn:active {
+  background: #eeebeb;
+  transform: scale(0.9);
 }
 
 .operator {
