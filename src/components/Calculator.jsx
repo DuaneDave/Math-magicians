@@ -7,7 +7,25 @@ import operate from '../logic/operate';
 import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    this.clickHandler = this.clickHandler.bind(this);
+  }
 
+  clickHandler(e) {
+    this.setState(calculate(this.state, e.target.textContent));
+  }
+
+  displayHandler() {
+    this.setState({
+      total: e.target.textContent,
+    });
+  }
 
   render() {
     const { total, next, operation } = this.state;
