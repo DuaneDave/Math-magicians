@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
@@ -14,33 +12,74 @@ const Calculator = () => {
     setTotal(result.total);
     setNext(result.next);
     setOperation(result.operation);
-  }
+  };
+
   return (
     <div className="container">
-      <div className="screen" onClick={clickHandler}>
-        {total}{operation}{next}
+      <div className="screen">
+        {total}
+        {operation}
+        {next}
       </div>
-      <div className="btn" onClick={clickHandler}>AC</div>
-      <div className="btn" onClick={clickHandler}>+/-</div>
-      <div className="btn" onClick={clickHandler}>%</div>
-      <div className="btn operator" onClick={clickHandler}>÷</div>
-      <div className="btn" onClick={clickHandler}>7</div>
-      <div className="btn" onClick={clickHandler}>8</div>
-      <div className="btn" onClick={clickHandler}>9</div>
-      <div className="btn operator" onClick={clickHandler}>x</div>
-      <div className="btn" onClick={clickHandler}>4</div>
-      <div className="btn" onClick={clickHandler}>5</div>
-      <div className="btn" onClick={clickHandler}>6</div>
-      <div className="btn operator" onClick={clickHandler}>-</div>
-      <div className="btn" onClick={clickHandler}>1</div>
-      <div className="btn" onClick={clickHandler}>2</div>
-      <div className="btn" onClick={clickHandler}>3</div>
-      <div className="btn operator" onClick={clickHandler}>+</div>
-      <div className="btn span-2" onClick={clickHandler}>0</div>
-      <div className="btn" onClick={clickHandler}>.</div>
-      <div className="btn operator" onClick={clickHandler}>=</div>
+      <button type="button" className="btn" onClick={clickHandler}>
+        AC
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        +/-
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        %
+      </button>
+      <button type="button" className="btn operator" onClick={clickHandler}>
+        ÷
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        7
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        8
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        9
+      </button>
+      <button type="button" className="btn operator" onClick={clickHandler}>
+        x
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        4
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        5
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        6
+      </button>
+      <button type="button" className="btn operator" onClick={clickHandler}>
+        -
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        1
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        2
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        3
+      </button>
+      <button type="button" className="btn operator" onClick={clickHandler}>
+        +
+      </button>
+      <button type="button" className="btn span-2" onClick={clickHandler}>
+        0
+      </button>
+      <button type="button" className="btn" onClick={clickHandler}>
+        .
+      </button>
+      <button type="button" className="btn operator" onClick={clickHandler}>
+        =
+      </button>
     </div>
   );
-}
+};
 
 export default Calculator;
