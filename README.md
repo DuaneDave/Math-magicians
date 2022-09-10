@@ -10,7 +10,7 @@
 - Css.
 - React.
 - Jest.
-- Webpack
+- Webpack.
 
 ## Live Demo
 
