@@ -7,7 +7,7 @@
 ## Built With
 
 - Javascript.
-- Css
+- Css.
 - React
 - Jest
 - Webpack
