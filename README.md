@@ -8,7 +8,7 @@
 
 - Javascript.
 - Css.
-- React
+- React.
 - Jest
 - Webpack
 
