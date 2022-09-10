@@ -6,7 +6,7 @@
 
 ## Built With
 
-- Javascript
+- Javascript.
 - Css
 - React
 - Jest
