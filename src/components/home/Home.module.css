@@ -1,0 +1,28 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1em;
+}
+
+.home h1 {
+  font-weight: 700;
+}
+
+.home p {
+  margin-top: 1rem;
+  max-width: 768px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 0 4em;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+  }
+}
