@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(22, 21, 21);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.945);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.945);
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1.5em 4em;
+  }
+}
