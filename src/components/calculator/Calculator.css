@@ -1,12 +1,12 @@
 .container {
   display: grid;
-  place-content: center;
   grid-template-columns: repeat(4, 1fr);
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   width: 200px;
+  height: max-content;
   gap: 4px;
 }
 
