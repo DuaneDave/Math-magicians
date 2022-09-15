@@ -10,10 +10,10 @@ describe('Operate', () => {
     expect(operation).toBe('7');
   });
 
-it('Should perform mutiplication', () => {
-  const operation = operate('3', '5', 'x');
-  expect(operation).toBe('15');
-});
+  it('Should perform mutiplication', () => {
+    const operation = operate('3', '5', 'x');
+    expect(operation).toBe('15');
+  });
 
   it('Should perform modulus', () => {
     const operation = operate('50', '10', '%');
