@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component test Should render the calculate component 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="contain"
+  >
+    <p>
+      Lets do some math!
+    </p>
+    <div
+      className="container"
+    >
+      <div
+        className="screen"
+      />
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="btn operator"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="btn operator"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="btn operator"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="btn operator"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="btn span-2"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="btn operator"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component test Should render the home component 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome to our page!
+  </h1>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia deleniti commodi cupiditate obcaecati inventore, repellat minus facilis eligendi sed delectus, voluptates aliquam impedit, quaerat aperiam architecto nesciunt nisi recusandae rerum corrupti unde. Dolorem nulla eaque in quisquam, ut minus, aperiam consequatur odio laudantium iusto fugiat repudiandae deleniti dolores ab consectetur a mollitia eos quam natus? Repudiandae officiis fuga consectetur, impedit sed eligendi aperiam, velit, quidem hic ex perferendis culpa aut illum! Nisi, iste. Officia veniam quis doloribus? Officiis, accusantium nesciunt.
+  </p>
+</div>
+`;
+
+exports[`Component test Should render the quote component 1`] = `
+<div
+  className="quote"
+>
+  <div
+    className="text"
+  >
+    <p>
+      Mathematics is not about numbers, equations, computations or algorithms: it is about understanding
+      <span>
+          -- William Paul Thurston
+      </span>
+    </p>
+  </div>
+</div>
+`;
